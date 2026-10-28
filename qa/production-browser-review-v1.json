@@ -1,0 +1,39 @@
+{
+  "status": "passed_production_browser_review",
+  "desktop": {
+    "clientWidth": 1456,
+    "contentWidth": 1456,
+    "loadedImages": true,
+    "title": "가스기능장 기체 상태·필기 연습 | RushLabs",
+    "url": "https://mcyj.github.io/gas-states-korean-practice-web/ko/",
+    "volume": "6.00 L",
+    "width": 1471
+  },
+  "mobileKorean": {
+    "clientWidth": 375,
+    "contentWidth": 375,
+    "imagesLoaded": true,
+    "language": "ko",
+    "url": "https://mcyj.github.io/gas-states-korean-practice-web/ko/",
+    "volume": "6.00 L",
+    "width": 390
+  },
+  "mobileEnglish": {
+    "clientWidth": 375,
+    "contentWidth": 375,
+    "language": "en",
+    "url": "https://mcyj.github.io/gas-states-korean-practice-web/en/",
+    "volume": "6.00 L",
+    "width": 390
+  },
+  "productionWorksheetKeyboardResult": "24.00 L",
+  "guide": {
+    "clientWidth": 375,
+    "contentWidth": 375,
+    "expanded": true,
+    "url": "https://mcyj.github.io/gas-states-korean-practice-web/ko/guides/absolute-temperature/"
+  },
+  "viewportOverrideReset": true,
+  "storeDownloadLinksAdded": 0,
+  "nonSiteBrowserExtensionOverlaysNotModified": true
+}

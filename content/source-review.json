@@ -1,0 +1,31 @@
+{
+  "reviewedAt": "2026-10-28",
+  "authorship": "Original RushLabs educational explanations and fictional arithmetic examples; no official prose, illustrations or exam questions reproduced",
+  "sources": [
+    {
+      "name": "Q-net qualification page",
+      "url": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=3375&jmInfoDivCcd=B0",
+      "checkedScope": "Visible qualification facts and criteria-link period; not a full PDF specification audit"
+    },
+    {
+      "name": "NASA Glenn equation of state",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/equation-of-state-ideal-gas-2/",
+      "checkedScope": "Ideal-gas relationship, fixed amount, absolute temperature; no source artwork or prose reused"
+    },
+    {
+      "name": "NIST SI conversion factors",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9",
+      "checkedScope": "Pressure, volume and temperature unit conversions"
+    },
+    {
+      "name": "NIST SI units and prefixes",
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+      "checkedScope": "SI units, prefixes, equal-sized kelvin and Celsius intervals"
+    },
+    {
+      "name": "OpenStax Chemistry 2e gas pressure",
+      "url": "https://openstax.org/books/chemistry-2e/pages/9-1-gas-pressure",
+      "checkedScope": "Pressure-reference relationships only; no textbook examples, prose or illustrations imported"
+    }
+  ]
+}

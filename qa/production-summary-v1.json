@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-28T01:15:20.254479+00:00",
+  "webRepositoryUrl": "https://github.com/MCYJ/gas-states-korean-practice-web",
+  "publicUrl": "https://mcyj.github.io/gas-states-korean-practice-web/",
+  "deployedCommit": "ff76e44b6e71377190349e4839ec8171992ad107",
+  "run": {
+    "id": 40613744140,
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/MCYJ/gas-states-korean-practice-web/actions/runs/40613744140",
+    "head_sha": "ff76e44b6e71377190349e4839ec8171992ad107"
+  },
+  "indexableRoutes": 41,
+  "missingRoute": {
+    "url": "https://mcyj.github.io/gas-states-korean-practice-web/not-a-real-route-20261028/",
+    "status": 404,
+    "custom404Matches": true
+  },
+  "storeAvailability": "coming_soon",
+  "storeLinks": 0,
+  "appStoreWrites": 0,
+  "status": "production_verified_prelaunch_website",
+  "httpResourcesAll200AndExactBuildBytes": 50,
+  "browserProductionVerified": true,
+  "appPublicationClaimed": false,
+  "appLearningContentLanguage": "ko",
+  "websiteLocales": [
+    "ko",
+    "en"
+  ],
+  "independentGuidesPerLocale": 10,
+  "privateAppRepositoryVisibilityChanged": false,
+  "banksOrSigningFilesPublished": false
+}
