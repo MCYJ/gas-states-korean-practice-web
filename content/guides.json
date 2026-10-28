@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "pressure-reference",
+    "category": ["01 · 압력 기준", "01 · Pressure reference"],
+    "title": ["같은 숫자라도 압력의 기준은 다릅니다", "Start with the pressure reference"],
+    "intro": ["압력 숫자를 식에 넣기 전에 절대압인지 게이지압인지 표시하세요. 계산이 맞아도 기준이 섞이면 비교하려던 상태 자체가 달라집니다.", "Label a pressure before using it. An accurate calculation can still compare the wrong states when absolute and gauge references are mixed."],
+    "sections": [
+      [["먼저 기록할 것", "절대압은 진공을 기준으로, 게이지압은 주어진 주변 압력을 기준으로 읽습니다. 게이지압을 절대압으로 바꿀 때는 그 사례의 주변 압력을 더합니다. 서로 다른 단위가 주어졌다면 먼저 같은 단위로 정리하세요."], ["Write the reference first", "Absolute pressure uses a vacuum reference. Gauge pressure expresses a difference from the stated surrounding pressure. Add that surrounding pressure when converting gauge to absolute, after putting both values in the same unit."]],
+      [["암산으로 방향 확인", "양의 게이지압을 입력했다면 변환한 절대압은 주변 압력보다 커야 합니다. 주변 압력을 두 번 더했거나, 이미 절대압인 값에 다시 더하지 않았는지 확인하세요."], ["Check the direction", "A positive gauge reading should produce an absolute pressure above the surrounding pressure. Check for adding the surrounding value twice, or adding it to a value that was already absolute."]],
+      [["비교 노트에 남길 내용", "입력값·단위·기준·주변 압력을 한 줄에 적습니다. 주변 압력은 모든 상황에서 같은 고정값이라고 가정하지 말고 예제에서 정한 값을 사용하세요. 기체 상태식에는 양의 절대압을 넣습니다."], ["Make the comparison reproducible", "Record the entered value, unit, reference and surrounding pressure together. Use the surrounding value stated in the example rather than assuming one value everywhere. The gas-state calculation requires positive absolute pressure."]]
+    ],
+    "example": ["가상 사례: 게이지압 150 kPa, 주변 압력 100 kPa → 절대압 250 kPa. 게이지압만 200 kPa로 바꾸면 절대압은 300 kPa가 됩니다.", "Fictional example: 150 kPa gauge with 100 kPa surrounding pressure gives 250 kPa absolute. Changing only the gauge reading to 200 kPa gives 300 kPa absolute."],
+    "check": ["두 절대압의 비가 200/150이 아닌 이유를 자신의 문장으로 적어 보세요.", "Explain why the ratio of those absolute pressures is not 200/150."],
+    "answer": ["상태식에서 비교하는 값은 기준이 다른 원래 입력이 아니라 300 kPa와 250 kPa이므로 비는 1.2입니다.", "The state calculation compares 300 kPa and 250 kPa, giving a ratio of 1.2. The original gauge inputs have a different zero reference."],
+    "sources": ["pressure", "gas"]
+  },
+  {
+    "slug": "absolute-temperature",
+    "category": ["02 · 온도 기준", "02 · Temperature reference"],
+    "title": ["온도비를 만들 때는 켈빈으로", "Use kelvin for temperature ratios"],
+    "intro": ["섭씨 온도는 일상에서 편하지만 기체의 온도비에는 절대온도가 필요합니다. 온도 자체의 비와 온도 변화량을 구분하는 연습을 해보세요.", "Celsius is familiar, but gas-state ratios need absolute temperature. Practise separating a ratio of temperatures from a temperature difference."],
+    "sections": [
+      [["변환을 계산보다 먼저", "섭씨 값에 273.15를 더해 켈빈 값을 얻습니다. 예제의 초기 온도와 목표 온도를 모두 변환한 뒤 비를 만드세요. 단위 기호는 K이며 °K로 쓰지 않습니다."], ["Convert before dividing", "Add 273.15 to a Celsius value to obtain kelvin. Convert both the initial and target temperatures before taking their ratio. The unit symbol is K, without a degree sign."]],
+      [["증가량과 배율 구분", "20 °C에서 40 °C가 되면 20 °C 증가한 것이지만 절대온도가 두 배가 된 것은 아닙니다. 반면 두 온도의 차이는 켈빈으로 표현해도 수치가 20입니다."], ["Difference is not a multiplier", "Going from 20 °C to 40 °C is a rise of 20 °C, but it does not double absolute temperature. The temperature difference has the same numerical value, 20, when expressed in kelvins."]],
+      [["입력 유효성 확인", "이상기체 학습식에 넣는 절대온도는 0보다 커야 합니다. 변환 결과가 0 이하라면 숫자를 억지로 계산하지 말고 입력 조건과 모형의 범위를 다시 확인하세요."], ["Check validity", "The absolute temperatures used in this ideal-gas worksheet must be greater than zero. If conversion produces zero or a negative value, review the inputs and the model instead of forcing a result."]]
+    ],
+    "example": ["가상 사례: 20 °C → 293.15 K, 40 °C → 313.15 K. 올바른 온도비는 313.15/293.15 ≈ 1.068입니다.", "Fictional example: 20 °C becomes 293.15 K and 40 °C becomes 313.15 K. The temperature ratio is 313.15/293.15 ≈ 1.068."],
+    "check": ["온도비 2를 사용한 답과 1.068을 사용한 답 중 어느 쪽이 이 조건을 나타내나요?", "Which multiplier represents these temperatures: 2 or about 1.068?"],
+    "answer": ["약 1.068입니다. 섭씨 값끼리 나눈 2는 이 기체 상태 비교의 온도비가 아닙니다.", "About 1.068. Dividing the Celsius values does not give the absolute-temperature ratio for this comparison."],
+    "sources": ["units", "gas"]
+  },
+  {
+    "slug": "pressure-units",
+    "category": ["03 · 단위 정리", "03 · Unit audit"],
+    "title": ["압력 단위부터 한 줄로 맞추기", "Put pressure values in one unit"],
+    "intro": ["kPa와 MPa를 그대로 나누면 숫자만 비교하게 됩니다. 압력의 기준과 단위를 별도 항목으로 적으면 서로 다른 오류를 구분하기 쉽습니다.", "Dividing raw kPa and MPa numbers compares numerals, not pressures. Keep the unit and the pressure reference as separate entries in your notes."],
+    "sections": [
+      [["단위 표를 작게 만들기", "1 MPa는 1,000 kPa, 1 bar는 100 kPa입니다. Pa에서 kPa로 바꿀 때는 1,000으로 나눕니다. 학습 노트에 변환 방향과 배수를 함께 써 두세요."], ["Keep a small conversion line", "1 MPa equals 1,000 kPa and 1 bar equals 100 kPa. Divide a value in Pa by 1,000 to express it in kPa. Write the direction and factor beside each conversion."]],
+      [["같은 물리량인지 확인", "단위를 맞췄다고 게이지압과 절대압의 차이가 사라지지는 않습니다. 먼저 각 입력의 기준을 표시하고, 기준 변환에 사용하는 주변 압력도 같은 단위로 맞춥니다."], ["Units do not fix references", "Matching units does not remove the difference between gauge and absolute pressure. Label the reference and convert any surrounding pressure to the same unit as well."]],
+      [["답의 크기를 역산", "소수점 위치가 의심되면 결과를 원래 단위로 되돌려 보세요. 비교를 시작하기 전보다 숫자 크기가 크게 달라졌다면 단위 이름도 함께 달라졌는지 확인합니다."], ["Reverse the conversion", "When a decimal point looks suspicious, convert back to the original unit. If the numerical magnitude changed substantially, check that the unit label changed with it."]]
+    ],
+    "example": ["가상 사례: 0.24 MPa와 160 kPa를 비교합니다. 전자를 240 kPa로 바꾸면 비는 240/160 = 1.5입니다. 0.24/160은 단위를 맞추지 않은 식입니다.", "Fictional example: compare 0.24 MPa with 160 kPa. Convert the first value to 240 kPa; the ratio is 240/160 = 1.5. The expression 0.24/160 leaves the units unmatched."],
+    "check": ["240 kPa를 MPa로 되돌렸을 때 원래 입력과 일치하나요?", "Does converting 240 kPa back to MPa recover the original input?"],
+    "answer": ["1,000으로 나누면 0.24 MPa이므로 일치합니다.", "Yes. Dividing by 1,000 gives 0.24 MPa."],
+    "sources": ["units", "si"]
+  },
+  {
+    "slug": "volume-units",
+    "category": ["04 · 부피 단위", "04 · Volume units"],
+    "title": ["부피비와 부피값을 구분하기", "Separate a volume ratio from a volume"],
+    "intro": ["비율은 단위가 없고, 계산한 부피에는 단위가 남습니다. 기준 부피와 목표 부피를 같은 단위로 쓰는 간단한 습관이 결과 해석을 돕습니다.", "A ratio is dimensionless; a calculated volume retains a unit. Using one unit for the initial and target volumes makes the result easier to interpret."],
+    "sections": [
+      [["리터와 세제곱미터", "1 L는 0.001 m³입니다. 원래 부피를 리터로 두고 무차원 상태비를 곱하면 결과도 리터입니다. 별도 단위의 기체상수를 사용하는 다른 식과 혼합하지 마세요."], ["Litres and cubic metres", "1 L equals 0.001 m³. Multiplying a volume in litres by a dimensionless state ratio produces litres. Do not silently mix this ratio method with another equation using an unmatched gas constant."]],
+      [["숫자만 적지 않기", "결과 0.006만 적으면 리터인지 세제곱미터인지 알 수 없습니다. 비교 노트의 입력·중간값·결과에 단위를 붙이고, 마지막 단계에서 표시할 단위를 선택하세요."], ["Do not leave a bare number", "A result written as 0.006 does not tell the reader whether it is litres or cubic metres. Label inputs, intermediate values and results, then choose the display unit at the end."]],
+      [["모형의 부피와 실제 용기", "이 학습에서 구한 목표 부피는 주어진 가정 아래의 상태값입니다. 실제 고정 용기의 크기를 바꾸는 지시가 아니며 충전량·허용 압력·설비 적합성을 결정하지 않습니다."], ["A model volume is not vessel advice", "The target volume is a state value under the example's assumptions. It is not an instruction to resize a real vessel or a determination of filling quantity, allowable pressure or equipment suitability."]]
+    ],
+    "example": ["가상 사례: 초기 부피 12 L, 부피비 0.5 → 목표 부피 6 L = 0.006 m³. 같은 상태비를 0.012 m³에 곱해도 결과는 0.006 m³입니다.", "Fictional example: 12 L multiplied by a volume ratio of 0.5 gives 6 L, or 0.006 m³. Starting with 0.012 m³ and applying the same ratio also gives 0.006 m³."],
+    "check": ["서로 다른 단위로 시작한 두 계산이 같은 상태를 나타내는지 확인해 보세요.", "Check whether the calculations starting in different units represent the same state."],
+    "answer": ["6 L와 0.006 m³는 같은 부피입니다. 숫자만 달라지고 물리량은 같습니다.", "6 L and 0.006 m³ are the same volume. The numeral changes, but the quantity does not."],
+    "sources": ["units", "si"]
+  },
+  {
+    "slug": "two-state-balance",
+    "category": ["05 · 두 상태", "05 · Two states"],
+    "title": ["압력비와 온도비를 따로 계산하기", "Calculate pressure and temperature ratios separately"],
+    "intro": ["기체량이 같은 이상기체의 두 상태를 비교할 때, 압력의 영향과 온도의 영향을 따로 적으면 식의 방향을 확인하기 쉽습니다.", "For two states of the same fixed amount of ideal gas, writing the pressure and temperature effects separately makes the direction easier to check."],
+    "sections": [
+      [["조건과 식을 먼저 적기", "양의 절대압과 켈빈 온도를 사용하고 기체량이 같다고 가정합니다. V₂ = V₁ × (P₁/P₂) × (T₂/T₁)로 목표 부피를 구합니다. 누출이나 추가 주입을 동시에 가정한 사례에는 그대로 적용하지 않습니다."], ["State the assumptions", "Use positive absolute pressures and temperatures in kelvin, with a fixed amount of ideal gas. The target volume is V₂ = V₁ × (P₁/P₂) × (T₂/T₁). Do not apply this unchanged to an example that also changes the gas amount."]],
+      [["각 배율의 방향", "목표 압력이 커지면 압력비는 1보다 작아지고, 목표 절대온도가 커지면 온도비는 1보다 커집니다. 두 영향이 반대라면 어느 쪽이 더 큰지 곱한 결과로 확인합니다."], ["Check both multipliers", "A higher target pressure makes the pressure ratio less than one. A higher target absolute temperature makes the temperature ratio greater than one. Multiply them to see which effect dominates."]],
+      [["비교가 재현되도록 기록", "초기·목표 입력과 고정한 조건을 함께 적습니다. 표시 자릿수는 마지막에 정하고 계산 중에는 충분한 값을 유지하세요. 예측과 결과가 다르면 먼저 분자·분모의 순서를 확인합니다."], ["Leave a reproducible trail", "Keep the initial inputs, target inputs and fixed conditions together. Round for display at the end. If the result contradicts your prediction, first check the numerator and denominator of each ratio."]]
+    ],
+    "example": ["가상 사례: V₁=10 L, P₁=200 kPa 절대압, T₁=300 K, P₂=400 kPa 절대압, T₂=360 K. 부피비는 0.5×1.2=0.6, V₂=6 L입니다.", "Fictional example: V₁=10 L, P₁=200 kPa absolute, T₁=300 K, P₂=400 kPa absolute and T₂=360 K. The volume ratio is 0.5×1.2=0.6, giving V₂=6 L."],
+    "check": ["온도가 올랐는데도 부피가 줄어든 이유를 두 배율로 설명해 보세요.", "Explain with the two multipliers why volume decreases even though temperature rises."],
+    "answer": ["온도 효과는 1.2배지만 압력 효과가 0.5배여서 곱은 0.6입니다.", "The temperature effect is a factor of 1.2, but the pressure effect is 0.5. Their product is 0.6."],
+    "sources": ["gas"]
+  },
+  {
+    "slug": "constant-temperature",
+    "category": ["06 · 한 조건 고정", "06 · Hold one condition"],
+    "title": ["온도가 같다면 어떤 값이 상쇄될까요?", "What cancels at constant temperature?"],
+    "intro": ["처음부터 복잡한 사례를 풀기보다 조건 하나를 고정해 보세요. 온도비가 1인 사례는 압력과 부피의 방향을 확인하는 기준점이 됩니다.", "Start by fixing one condition. A case with a temperature ratio of one provides a simple reference for checking the pressure–volume direction."],
+    "sections": [
+      [["같은 기체량·같은 온도", "이상기체 모형에서 같은 양의 기체를 같은 온도로 비교하면 P₁V₁=P₂V₂입니다. 여기서 압력은 절대압입니다. 압력이 두 배가 되면 모형의 부피는 절반이 됩니다."], ["Same amount, same temperature", "For a fixed amount of ideal gas at the same temperature, P₁V₁=P₂V₂. Pressures are absolute. Doubling the pressure halves the model volume."]],
+      [["게이지압의 배율과 구별", "게이지압이 두 배라는 말만으로 절대압도 두 배라고 판단하면 안 됩니다. 주변 압력을 더한 뒤 배율을 구하고, 온도가 정말 같다고 주어진 사례인지 확인하세요."], ["Do not double the wrong pressure", "A doubled gauge reading does not necessarily mean doubled absolute pressure. Add the stated surrounding pressure first, then calculate the ratio and confirm that temperature is held constant."]],
+      [["경계 조건을 따로 읽기", "실제 밀폐된 고정 용기는 부피가 바뀌지 않습니다. 이 학습 예제는 서로 다른 상태의 관계를 비교하며, 실제 장치가 어떤 과정을 거쳐 이동할 수 있는지까지 보여주지 않습니다."], ["Read the boundary conditions", "A real sealed rigid vessel does not change its volume. This exercise compares state relationships; it does not establish how a real apparatus could move between those states."]]
+    ],
+    "example": ["가상 사례: 180 kPa 절대압에서 8 L인 이상기체를 같은 온도의 360 kPa 절대압 상태와 비교합니다. V₂=8×180/360=4 L입니다.", "Fictional example: compare an ideal gas at 180 kPa absolute and 8 L with a state at 360 kPa absolute at the same temperature. V₂=8×180/360=4 L."],
+    "check": ["두 상태의 PV 값을 계산해 같은지 확인해 보세요.", "Calculate PV for both states and check whether the products match."],
+    "answer": ["180×8과 360×4는 모두 1,440 kPa·L입니다.", "180×8 and 360×4 both equal 1,440 kPa·L."],
+    "sources": ["gas"]
+  },
+  {
+    "slug": "temperature-change",
+    "category": ["07 · 변화 해석", "07 · Interpret a change"],
+    "title": ["압력을 고정하고 온도만 바꿔 보기", "Change temperature while holding pressure fixed"],
+    "intro": ["압력비가 1인 사례에서는 부피 변화가 절대온도비를 따릅니다. 온도 눈금의 영점이 왜 중요한지 수치로 확인하기 좋은 연습입니다.", "When the pressure ratio is one, the volume change follows the absolute-temperature ratio. This makes a useful numerical check of why the temperature zero point matters."],
+    "sections": [
+      [["압력비를 먼저 없애기", "같은 기체량·같은 절대압의 이상기체를 비교하면 V₂/V₁=T₂/T₁입니다. 초기와 목표 온도를 모두 켈빈으로 정리한 뒤 남은 비를 계산합니다."], ["Cancel the pressure ratio", "For the same amount of ideal gas at the same absolute pressure, V₂/V₁=T₂/T₁. Express both temperatures in kelvin before evaluating the remaining ratio."]],
+      [["퍼센트로도 확인", "부피비가 1.1이면 초기 부피의 110%, 즉 10% 증가입니다. 부피비 자체를 증가율이라고 부르지 않도록 비에서 1을 뺀 값을 따로 적어 보세요."], ["Interpret the percentage", "A volume ratio of 1.1 means 110% of the initial volume, or a 10% increase. Subtract one from the ratio before calling it a fractional increase."]],
+      [["한 번에 하나만 변경", "압력·온도·초기 부피를 동시에 바꾸면 무엇이 차이를 만들었는지 설명하기 어렵습니다. 기준 사례를 저장하고 목표 온도만 바꾼 사례와 비교하면 원인을 추적하기 쉽습니다."], ["Change one input at a time", "Changing pressure, temperature and initial volume together makes the cause harder to explain. Keep a baseline and compare it with a case that changes only the target temperature."]]
+    ],
+    "example": ["가상 사례: V₁=5 L, T₁=300 K에서 T₂=330 K로 비교하고 절대압은 그대로 둡니다. V₂=5×330/300=5.5 L, 증가량은 0.5 L입니다.", "Fictional example: begin with V₁=5 L and T₁=300 K, then compare T₂=330 K at unchanged absolute pressure. V₂=5×330/300=5.5 L, an increase of 0.5 L."],
+    "check": ["증가량 0.5 L를 초기 부피로 나눈 값은 얼마인가요?", "What is the increase of 0.5 L divided by the initial volume?"],
+    "answer": ["0.5/5=0.1이므로 10%입니다. 부피비 1.1과 증가율 10%를 구분하세요.", "0.5/5=0.1, or 10%. Keep the volume ratio of 1.1 separate from the 10% increase."],
+    "sources": ["gas"]
+  },
+  {
+    "slug": "amount-invariant",
+    "category": ["08 · 비교의 전제", "08 · Comparison assumptions"],
+    "title": ["PV/T로 같은 기체량인지 점검하기", "Use PV/T to audit the fixed-amount assumption"],
+    "intro": ["두 사례의 결과를 나란히 보기 전에 같은 기체량을 비교하고 있는지 살펴보세요. 입력의 단위나 기준이 달라져도 값이 달라 보일 수 있습니다.", "Before comparing two saved cases, check whether they represent the same gas amount. Mismatched units or references can also make the values appear inconsistent."],
+    "sections": [
+      [["불변량을 계산하는 순서", "양의 절대압·같은 부피 단위·켈빈을 사용해 PV/T를 계산합니다. 같은 이상기체량을 비교한다면 이 값이 같아야 합니다. 단위를 맞추지 않은 값끼리 비교하지 마세요."], ["Use compatible inputs", "Calculate PV/T using positive absolute pressure, one volume unit and kelvin. For the same amount of ideal gas, the values should match. Do not compare numbers computed in incompatible units."]],
+      [["차이가 나면 먼저 입력 점검", "바로 기체량이 달라졌다고 결론 내리기 전에 게이지압·절대압 선택, 주변 압력, 섭씨 변환, L·m³ 변환과 반올림을 확인하세요. 입력을 바꿨다면 저장된 결과가 최신인지도 살펴봅니다."], ["Audit before concluding", "Before deciding that the amount changed, check the pressure reference, surrounding pressure, Celsius conversion, volume conversion and rounding. Also check whether a saved result reflects the latest inputs."]],
+      [["화면의 값이 증명하지 않는 것", "학습 계산의 불변량 일치는 실제 누출 검사나 계측 검증이 아닙니다. 앱의 가상 모형 결과를 실제 설비의 상태나 안전성에 대한 증거로 사용하지 마세요."], ["Know what the check cannot establish", "Matching values in a learning calculation are not a real leak test or instrument verification. A fictional model result does not establish the state or safety of real equipment."]]
+    ],
+    "example": ["가상 사례: A는 200 kPa·10 L/300 K, B는 400 kPa·6 L/360 K입니다. 둘 다 약 6.667 kPa·L/K로 같은 모형 기체량을 나타냅니다.", "Fictional example: A gives 200 kPa·10 L/300 K; B gives 400 kPa·6 L/360 K. Both equal about 6.667 kPa·L/K, consistent with the same model gas amount."],
+    "check": ["B의 부피만 7 L로 바꾸면 불변량은 유지되나요?", "If only B's volume changes to 7 L, does the invariant still match?"],
+    "answer": ["아닙니다. 400×7/360≈7.778이므로 다른 입력 조건이 됩니다. 실제 기체량을 측정했다는 뜻은 아닙니다.", "No. 400×7/360≈7.778, giving a different input condition. This does not amount to measuring real gas quantity."],
+    "sources": ["gas"]
+  },
+  {
+    "slug": "read-pv-diagram",
+    "category": ["09 · 도식 읽기", "09 · Read the diagram"],
+    "title": ["상태점과 과정선을 구분하기", "Distinguish a state point from a process path"],
+    "intro": ["도식의 선을 보기 전에 축과 고정 조건을 읽으세요. 한 상태를 나타내는 점과 실제 변화 경로를 나타내는 선은 같은 의미가 아닙니다.", "Read the axes and fixed conditions before interpreting a curve. A point representing a state and a line representing an actual process do not mean the same thing."],
+    "sections": [
+      [["축과 단위를 먼저", "앱의 P-V 도식에서 압력·부피 축의 표시와 단위를 확인합니다. 목표 온도의 등온선은 그 온도에서 가능한 이상기체 상태들의 관계를 보여줍니다. 초기점이 그 선 위에 있어야 하는 것은 아닙니다."], ["Start with the axes", "Check the pressure and volume axes and their displayed units. The app's target-temperature isotherm relates ideal-gas states at that target temperature. The initial point need not lie on that curve."]],
+      [["온도가 다른 두 점", "초기 온도와 목표 온도가 다르면 두 점은 같은 등온선에 속하지 않을 수 있습니다. 목표 등온선만 보고 초기 상태에서 목표 상태까지의 실제 과정이나 열의 이동을 읽어내지 마세요."], ["Two temperatures can mean two isotherms", "When the initial and target temperatures differ, the points may belong to different isotherms. A target isotherm alone does not describe the actual route or heat transfer between the states."]],
+      [["숫자와 설명을 함께 읽기", "점의 위치만으로 계산을 판단하지 말고 절대압·켈빈·목표 부피와 같은 표시값을 함께 확인하세요. 도식이 단순화한 가정과 표현하지 않는 실제 현상을 노트에 따로 적어 두면 도움이 됩니다."], ["Read values alongside the picture", "Check the displayed absolute pressure, kelvin temperature and target volume as well as the point positions. Keep a separate note of the diagram's assumptions and the real phenomena it does not represent."]]
+    ],
+    "example": ["가상 사례: 초기 300 K, 목표 360 K. 목표 360 K의 등온선을 표시해도 300 K인 초기 상태가 같은 선에 놓일 필요는 없습니다.", "Fictional example: the initial temperature is 300 K and the target is 360 K. Showing the 360 K isotherm does not require the initial 300 K state to sit on that curve."],
+    "check": ["목표 등온선을 실제 압축 과정선이라고 불러도 될까요?", "Can you call the target isotherm the actual compression path?"],
+    "answer": ["아닙니다. 이 화면은 목표 온도에서의 상태 관계를 보여주며 실제 과정 경로를 계산하지 않습니다.", "No. This view shows a state relationship at the target temperature; it does not calculate the actual process path."],
+    "sources": ["gas"]
+  },
+  {
+    "slug": "case-review",
+    "category": ["10 · 복습 설계", "10 · Design a review"],
+    "title": ["저장한 두 사례로 오류를 찾는 순서", "Review two saved cases with a clear question"],
+    "intro": ["사례 A와 B는 단순한 보관함보다 비교 질문을 만드는 도구로 쓰면 좋습니다. 무엇을 고정하고 무엇을 바꿨는지 먼저 정하세요.", "Use saved cases A and B to ask a comparison question. Decide what stays fixed and what changes before looking at the resulting numbers."],
+    "sections": [
+      [["A를 기준으로 저장", "초기 부피·압력 기준·주변 압력·초기 온도와 목표 조건을 확인합니다. 입력을 적용해 결과를 확인한 뒤 A에 저장하세요. 바꾼 입력을 아직 적용하지 않았다면 먼저 계산을 완료합니다."], ["Save a baseline", "Review the initial volume, pressure reference, surrounding pressure, initial temperature and target conditions. Apply the inputs and inspect the result before saving A. Changed but unapplied inputs should be calculated first."]],
+      [["B에서는 하나만 변경", "예를 들어 목표 압력만 바꾸고 나머지 입력을 유지합니다. 결과를 보기 전 부피가 커질지 작아질지 예상하고 B에 저장합니다. 차이를 적을 때는 B−A인지 A−B인지 부호 기준을 명시하세요."], ["Change one thing for B", "For example, change only the target pressure. Predict whether volume will increase or decrease, then calculate and save B. When recording a difference, specify whether it is B−A or A−B."]],
+      [["다음 복습에서 재현", "앱을 다시 열어 A를 불러온 뒤 저장값과 비교 메모가 맞는지 확인합니다. 예상과 다르다면 숫자를 외우기보다 단위·압력 기준·온도비·고정 조건 순서로 점검하세요. 풀이 기록의 비율은 시험 준비도나 합격 확률이 아닙니다."], ["Reproduce the case later", "Reopen the app and load A to check the saved values against your notes. If the result surprises you, audit units, pressure reference, temperature ratio and fixed conditions. A practice-progress percentage is not exam readiness or a pass probability."]]
+    ],
+    "example": ["가상 복습 메모: A의 목표 부피 8 L, B는 6 L. B−A=−2 L이며 A 대비 25% 감소입니다. 이 숫자는 설명을 위한 별도 예시이며 실제 기기나 공식 문제의 측정값이 아닙니다.", "Fictional review note: A has a target volume of 8 L and B has 6 L. B−A=−2 L, a 25% decrease relative to A. These are separate explanatory numbers, not measurements from equipment or an official exam question."],
+    "check": ["같은 차이 −2 L를 초기값과 관계없이 항상 −25%라고 불러도 될까요?", "Does a difference of −2 L always mean −25%, regardless of the baseline?"],
+    "answer": ["아닙니다. 퍼센트는 비교 기준값에 따라 달라집니다. 여기서는 A의 8 L를 기준으로 −2/8=−25%입니다.", "No. A percentage depends on the reference value. Here A is 8 L, so −2/8=−25%."],
+    "sources": []
+  }
+]

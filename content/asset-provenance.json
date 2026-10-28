@@ -1,0 +1,38 @@
+{
+  "appBuild": 6,
+  "serviceId": "hrdk-0347",
+  "learningContentLanguage": "ko",
+  "nativeUiReconstructed": false,
+  "assets": [
+    {
+      "file": "assets/icon.png",
+      "sha256": "55d101c0fe23dc4185b5f93d01e1d7984f53b84d97fbb992d33fe9e862bb17ca",
+      "origin": "Reviewed Android6 presentation asset; exact bytes copied",
+      "questionBankCopied": false
+    },
+    {
+      "file": "assets/feature-graphic.png",
+      "sha256": "5b7d477ad3961c27562eadb35ec934b97ef3feb1843e980f4ff22eee4823e456",
+      "origin": "Reviewed Android6 presentation asset; exact bytes copied",
+      "questionBankCopied": false
+    },
+    {
+      "file": "assets/gas-states.png",
+      "sha256": "5ceb988c69c25827cc72ca83829a362ec75f6d09af7e3347fd9bd09a426978c4",
+      "origin": "Reviewed Android6 presentation asset; exact bytes copied",
+      "questionBankCopied": false
+    },
+    {
+      "file": "assets/offline-study.png",
+      "sha256": "525ef7908cc86eb5ee52c5f1d5ee791afeb5184521a243fbbda0b73750e75a02",
+      "origin": "Reviewed Android6 presentation asset; exact bytes copied",
+      "questionBankCopied": false
+    },
+    {
+      "file": "assets/saved-cases.png",
+      "sha256": "14368750387b92c465268cc3da56cc2ad07535039cee87fde0b24eadbfcc72a2",
+      "origin": "Reviewed Android6 presentation asset; exact bytes copied",
+      "questionBankCopied": false
+    }
+  ]
+}

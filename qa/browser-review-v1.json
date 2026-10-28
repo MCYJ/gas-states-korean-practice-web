@@ -1,0 +1,422 @@
+{
+  "status": "passed_local_browser_review",
+  "desktop": {
+    "bodyWidth": 1456,
+    "h1": "압력의 기준부터,\n기체 상태를\n이해하는 연습.",
+    "images": [
+      {
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "alt": "절대압과 온도 기준, 기체 도식을 보여주는 한국어 앱 화면",
+        "loaded": true
+      }
+    ],
+    "volume": "6.00 L",
+    "width": 1471
+  },
+  "smallAndTabletBreakpoints": [
+    {
+      "clientWidth": 305,
+      "contentWidth": 305,
+      "heading": "압력의 기준부터,\n기체 상태를\n이해하는 연습.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/",
+      "width": 320
+    },
+    {
+      "clientWidth": 305,
+      "contentWidth": 305,
+      "heading": "Read the reference.\nCompare the states.\nUnderstand the change.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/en/",
+      "width": 320
+    },
+    {
+      "clientWidth": 305,
+      "contentWidth": 305,
+      "heading": "오프라인 복습과\n기체 상태 비교를 함께.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/features/",
+      "width": 320
+    },
+    {
+      "clientWidth": 305,
+      "contentWidth": 305,
+      "heading": "Use kelvin for temperature ratios",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/en/guides/absolute-temperature/",
+      "width": 320
+    },
+    {
+      "clientWidth": 305,
+      "contentWidth": 305,
+      "heading": "개인정보 안내",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/privacy/",
+      "width": 320
+    },
+    {
+      "clientWidth": 753,
+      "contentWidth": 753,
+      "heading": "압력의 기준부터,\n기체 상태를\n이해하는 연습.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/",
+      "width": 768
+    },
+    {
+      "clientWidth": 753,
+      "contentWidth": 753,
+      "heading": "Read the reference.\nCompare the states.\nUnderstand the change.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/en/",
+      "width": 768
+    },
+    {
+      "clientWidth": 753,
+      "contentWidth": 753,
+      "heading": "오프라인 복습과\n기체 상태 비교를 함께.",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/features/",
+      "width": 768
+    },
+    {
+      "clientWidth": 753,
+      "contentWidth": 753,
+      "heading": "Use kelvin for temperature ratios",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/en/guides/absolute-temperature/",
+      "width": 768
+    },
+    {
+      "clientWidth": 753,
+      "contentWidth": 753,
+      "heading": "개인정보 안내",
+      "images": true,
+      "path": "/gas-states-korean-practice-web/ko/privacy/",
+      "width": 768
+    }
+  ],
+  "mobileAll40": [
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/features/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/study-flow/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/exam/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/faq/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/support/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/contact/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/privacy/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/terms/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/pressure-reference/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/absolute-temperature/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/pressure-units/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/volume-units/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/two-state-balance/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/constant-temperature/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/temperature-change/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/amount-invariant/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/read-pv-diagram/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/ko/guides/case-review/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": false,
+      "route": "/gas-states-korean-practice-web/en/features/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/study-flow/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/exam/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/faq/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/support/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/contact/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/privacy/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/terms/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/pressure-reference/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/absolute-temperature/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/pressure-units/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/volume-units/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/two-state-balance/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/constant-temperature/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/temperature-change/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/amount-invariant/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/read-pv-diagram/",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "contentWidth": 375,
+      "imagesLoaded": true,
+      "route": "/gas-states-korean-practice-web/en/guides/case-review/",
+      "width": 390
+    }
+  ],
+  "worksheetKeyboardExpectedLitres": [
+    6,
+    24,
+    3.33
+  ],
+  "guideExplanationExpanded": true,
+  "sameGuideLocaleSwitch": true,
+  "viewportReset": true,
+  "actualAppScreenshots": true,
+  "publicProductionQaPending": true,
+  "lazyImageFirstPassPendingThenScrolledReadback": {
+    "clientWidth": 375,
+    "contentWidth": 375,
+    "images": [
+      {
+        "alt": "",
+        "complete": true,
+        "naturalWidth": 512
+      },
+      {
+        "alt": "Gas-state notebook · actual Korean screen",
+        "complete": true,
+        "naturalWidth": 1080
+      },
+      {
+        "alt": "Offline Korean practice · actual Korean screen",
+        "complete": true,
+        "naturalWidth": 1080
+      },
+      {
+        "alt": "Independent cases A and B · actual Korean screen",
+        "complete": true,
+        "naturalWidth": 1080
+      }
+    ],
+    "path": "/gas-states-korean-practice-web/en/features/",
+    "width": 390
+  },
+  "allScreenshotAssetsLoadedAfterScroll": true
+}
